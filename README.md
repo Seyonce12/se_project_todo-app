@@ -15,6 +15,14 @@ A form is used to create the todo and validates the inputs before adding up a to
 
 HTML, CSS and vanilla javascript were used in this project. Below are screenshots of the implemented features:
 
+- adding a todo
+![adding](./screenshots/create.jpg)
+
+- todo added
+![added](./screenshots/added.jpg)
+
+- delete the todo
+![added](./screenshots/deleted.jpg)
 
 
 ## Deployment
