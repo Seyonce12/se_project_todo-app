@@ -1,17 +1,24 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+This project implements functionality for a simple todo application. It can be used to track  
+one's daily activities.
 
 ## Functionality
+The project has three main and other sub functionalities:
+- creating a new todo
+- deleting a todo
+- viewing a created todo
 
-Give a more detailed explanation of the project and its functionality.
+A form is used to create the todo and validates the inputs before adding up a todo.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+HTML, CSS and vanilla javascript were used in this project. Below are screenshots of the implemented features:
+
+
 
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+- [https://seyonce12.github.io/se_project_todo-app/](https://seyonce12.github.io/se_project_todo-app/)
