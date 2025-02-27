@@ -1,7 +1,7 @@
 class Todo {
     constructor(data, selector, id) {
       this._data = {...data, id: id};
-      this._selector = selector;
+      this._selector = document.querySelector(selector)
       this._deleteButton = null
       this._checkbox = null
       this._todoElement = null
@@ -25,8 +25,8 @@ class Todo {
   
     // Public method to generate the todo element
     getView() {
-        const todoTemplate = document.querySelector("#todo-template");
-        const todoElement = todoTemplate.content.querySelector(".todo").cloneNode(true);
+        //const todoTemplate = document.querySelector("#todo-template");
+        const todoElement = this._selector.content.querySelector(".todo").cloneNode(true);
         this._todoElement = todoElement
         //const todoElement = template.querySelector(".todo");
         const todoNameEl = todoElement.querySelector(".todo__name");
